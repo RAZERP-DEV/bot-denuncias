@@ -1,0 +1,17 @@
+app = "SEU_NOME_DE_APP_AQUI"
+primary_region = "gru" # Região de São Paulo para menor latência
+
+[build]
+
+[[services]]
+  internal_port = 5000
+  protocol = "tcp"
+
+  [[services.ports]]
+    force_https = true
+    handlers = ["http"]
+    port = 80
+
+  [[services.ports]]
+    handlers = ["tls", "http"]
+    port = 443
