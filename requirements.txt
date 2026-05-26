@@ -1,0 +1,4 @@
+discord.py==2.3.2
+quart==0.19.4
+quart-cors==0.7.0
+asyncio
