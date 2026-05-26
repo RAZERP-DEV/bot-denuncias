@@ -1,4 +1,4 @@
-app = "SEU_NOME_DE_APP_AQUI"
+app = "app bott-de-automoção"
 primary_region = "gru" # Região de São Paulo para menor latência
 
 [build]
