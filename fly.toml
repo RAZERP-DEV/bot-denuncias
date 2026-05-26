@@ -1,4 +1,4 @@
-app = "app bott-de-automoção"
+app = "bott-de-automoção"
 primary_region = "gru" # Região de São Paulo para menor latência
 
 [build]
